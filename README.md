@@ -1,6 +1,3 @@
-# Snapbase - Database Backup CLI 
-
-https://roadmap.sh/projects/database-backup-utility
 
 A command-line interface (CLI) utility for backing up MySQL and MongoDB databases with support for compression and local storage.
 
@@ -181,22 +178,4 @@ Current limitations of the CLI:
 - No notification system
 - No partial backup/restore functionality
 
-## Contributing
 
-Contributions are welcome! To contribute:
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-📦 [NPM Package](https://www.npmjs.com/package/snapbase) |
-🐛 [Report Bug](https://github.com/KunalSalunkhe12/SnapBase/issues) |
-✨ [Request Feature](https://github.com/KunalSalunkhe12/SnapBase/issues)
