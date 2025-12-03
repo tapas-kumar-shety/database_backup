@@ -14,8 +14,6 @@ A command-line interface (CLI) utility for backing up MySQL and MongoDB database
 - [Logging](#logging)
 - [Error Handling](#error-handling)
 - [Limitations](#limitations)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
