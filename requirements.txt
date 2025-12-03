@@ -1,0 +1,29 @@
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "snapbase": "./snapbase.js"
+  },
+  "author": "Tapas kumar shety",
+  "license": "ISC",
+  "dependencies": {
+    "@inquirer/prompts": "^5.3.8",
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^10.1.8",
+    "mongodb": "^6.8.1",
+    "mysql2": "^3.11.4",
+    "ora": "^8.1.0",
+    "pg": "^8.12.0",
+    "snapbase": "file:",
+    "sqlite3": "^5.1.7"
+  }
+}
+
+
+### to run a mysql container
+docker run --name mysql-test -e MYSQL_ROOT_PASSWORD=root -e MYSQL_DATABASE=testdb -p 3306:3306 -d mysql:8
+
+#### to run a mongodb container 
+docker run --name mongo-test `
+  -p 27017:27017 -d mongo:6
